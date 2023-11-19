@@ -1,7 +1,7 @@
 package org.example;
 
 public class MatrixMul {
-    public double[][] execute(double[][] a, double[][] b) {
+    public double[][] multiply(double[][] a, double[][] b) {
         int n = a.length;
         double[][] c = new double[n][n];
         for (int i = 0; i < n; i++) {
