@@ -32,7 +32,7 @@ public class MatrixMultiplicationBenchmarking {
     @Measurement(iterations = 3)
     @Warmup(iterations = 2)
     public void multiplication(Builder builder){
-        new MatrixMul().execute(builder.a, builder.b);
+        new MatrixMul().multiply(builder.a, builder.b);
     }
 }
 
