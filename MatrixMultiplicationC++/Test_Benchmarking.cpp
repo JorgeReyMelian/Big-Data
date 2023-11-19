@@ -13,7 +13,7 @@ public:
               double exec_time;
 
               for (int r = 0; r < rounds; r++) {
-                  for (int i = 0; i < iterations; i++) {
+                  for (int i = 0; i < iter; i++) {
             
                       struct timeval initial, end;
                       gettimeofday(&initial,NULL);
